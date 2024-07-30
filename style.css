@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  height: 100vh;
+  background-color: #312e2b;
+  justify-content: center;
+  align-items: center;
+}
+
+.chessboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 32vw;
+  height: 32vw;
+}
+
+.black {
+  background-color: #B58863;
+  width:4vw;
+  height: 4vw;
+}
+
+.white {
+  background-color: #F0D9B5;
+  width:4vw;
+  height: 4vw;
+}
+
+img {
+  width: 4vw;
+}
